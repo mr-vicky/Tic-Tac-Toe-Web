@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <script src="https://kit.fontawesome.com/e5d6b070fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!----------- home ---------- -->
+    <div class="home">
+        <h1>TIC TAC TOE</h1>
+        <button id="play-btn"><i class="fa-solid fa-play"></i>Play Game</button>
+    </div>
+
+    <!-------- Winner - Message ------>
+    <div class="message-container hide">
+        <h1>TIC TAC TOE</h1>
+        <p id="message">Winner</p>
+        <div class="winner-buttons">
+            <button id="new-game-btn"><i class="fa-solid fa-play"></i>Play again</button>
+            <button id="new-game-home-btn"><i class="fa-solid fa-house-chimney"></i>Home</button>
+        </div>
+    </div>
+    <!--------- game Page ------------->
+    <main class="game-page hide">
+        <h1>TIC TAC TOE</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <p id="draw-text" class="hide">This is a draw!</p>
+        <button id="reset-btn"><i class="fa-solid fa-repeat"></i>Reset Game</button>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

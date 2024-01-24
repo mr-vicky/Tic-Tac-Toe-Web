@@ -1,0 +1,185 @@
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+    
+    body{
+        background-color: #E0AAFF;
+        text-align: center;
+    }
+    
+    
+    /* ------------------Home-------------------- */
+    .home{
+        /* background-image: url('/images/TIc-Tac-Toe.png'); */
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* z-index: -1; */
+    }
+    
+    .home h1{
+        font-size: 4.4rem;
+        font-weight: 700;
+        text-shadow: 2px 3px 2px #fff;
+        color: #3C096C;
+        margin-top: 200px;
+    }
+    
+    #play-btn{
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: #7B2CBF;
+        text-shadow: 2px 2px 5px black;
+        color: white;
+        border-radius: 1rem;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-weight: 800;
+        border: 4px solid white;
+    }
+    
+    .home i{
+        margin-right: 10px;
+    }
+    
+    /* --------------------- Game Page ----------------- */
+    
+    h1{
+        font-size: 5vmin;
+        font-size: 3.5rem;
+        font-weight: 800;
+        text-shadow: 2px 3px 2px #fff;
+        color: #3C096C;
+    }
+    
+    .container{
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .game{
+        height: vmin;
+        width: 90vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5vmin;
+    }
+    
+    .box{
+        height: 26vmin;
+        width: 26vmin;
+        border-radius: 1rem;
+        border: none;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+        font-size: 9vmin;
+        font-weight: 700;
+        color: #7B2CBF;
+        background-color: #f5ecf4;
+    }
+    
+    #draw-text{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    #reset-btn  {
+        padding: 1rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        margin-bottom: 30px;
+        margin: 10px;
+        font-weight: 800;
+        background-color: #7B2CBF;
+        text-shadow: 2px 2px 5px black;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    #reset-btn i{
+        margin-right: 10px;
+    }
+    
+    
+    /* ------------- Winner - Message Container -------------- */
+    .winner-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .message-container h1{
+        margin-bottom: 30px;
+    }
+
+    #new-game-btn{
+        width: 60vmin;
+        padding: 1rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        margin-bottom: 30px;
+        margin: 10px;
+        font-weight: 800;
+        background-color: #7B2CBF;
+        text-shadow: 2px 2px 5px black;
+        color: white;
+        border: 2px solid white;
+    }
+    #new-game-home-btn{
+        width: 60vmin;
+        padding: 1rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        margin-bottom: 30px;
+        margin: 10px;
+        font-weight: 800;
+        background-color: #7B2CBF;
+        text-shadow: 2px 2px 5px black;
+        color: white;
+        border: 2px solid white;
+    }
+    
+    #message{
+        color: white;
+        font-size: 9vmin;
+        font-weight: 600;
+        text-shadow: 2px 2px 5px black;
+        margin-bottom: 40px;
+    }
+    
+    .message-container{
+        /* margin: 100px; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+    }
+    
+    
+    .winner-buttons i{
+        /* margin-left: 8px; */
+        margin-right: 10px;
+        font-size: 1.2rem;
+    }
+    
+    
+    /*------------- Utility classes -------------- */
+    .hide{
+        display: none;
+    }
+    
+}

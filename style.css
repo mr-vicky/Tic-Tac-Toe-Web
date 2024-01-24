@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: #E0AAFF;
+    text-align: center;
+}
+
+
+/* ------------------Home-------------------- */
+.home{
+    background-image: url('/images/TIc-Tac-Toe.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.home h1{
+    font-size: 8.4rem;
+    font-weight: 800;
+    text-shadow: 4px 6px 4px #fff;
+    color: #3C096C;
+}
+
+#play-btn{
+    padding: 2rem;
+    font-size: 3.5rem;
+    background-color: #7B2CBF;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+    font-weight: 800;
+    border: 4px solid white;
+}
+
+.home i{
+    margin-right: 10px;
+}
+
+/* --------------------- Game Page ----------------- */
+
+h1{
+    font-size: 10vmin;
+    font-size: 5.4rem;
+    font-weight: 800;
+    text-shadow: 4px 6px 4px #fff;
+    color: #3C096C;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+    font-size: 9vmin;
+    font-weight: 700;
+    color: #7B2CBF;
+    background-color: #f5ecf4;
+}
+
+#draw-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#reset-btn  {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+    margin: 10px;
+    font-weight: 800;
+    background-color: #7B2CBF;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    border: 2px solid white;
+}
+
+#reset-btn i{
+    margin-right: 10px;
+}
+
+
+/* ------------- Winner - Message Container -------------- */
+
+#new-game-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 26vmin;
+    margin: 10px;
+    font-weight: 800;
+    background-color: #7B2CBF;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    border: 2px solid white;
+
+}
+#new-game-home-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    width: 20vmin;
+    margin: 10px;
+    font-weight: 800;
+
+    background-color: #7B2CBF;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+    border: 2px solid white;
+
+}
+
+#message{
+    color: white;
+    font-size: 9vmin;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 40px;
+}
+
+.message-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vmin;
+    align-items: center;
+}
+
+
+.winner-buttons i{
+    /* margin-left: 8px; */
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+
+/*------------- Utility classes -------------- */
+.hide{
+    display: none;
+}
