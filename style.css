@@ -13,7 +13,7 @@ body{
 
 /* ------------------Home-------------------- */
 .home{
-    background-image: url('/images/TIc-Tac-Toe.png');
+    background-image: url('https://mr-vicky.github.io/Tic-Tac-Toe-Web/images/TIc-Tac-Toe.png');
     width: 100%;
     height: 100vh;
     background-size: cover;
